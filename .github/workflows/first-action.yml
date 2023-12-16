@@ -17,5 +17,8 @@ jobs:
         # script or command
         run: echo 'Hello World'
       - name: Print goodbye
-        run: echo "Done - bye"
+        # running multu line command in one step
+        run: |
+          echo "Done - bye"
+          echo "God is good"
     
