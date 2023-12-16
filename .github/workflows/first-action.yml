@@ -3,6 +3,7 @@ name: First Workflow
 
 # when the work flow should run: Event (there are multiple we use workflow_dispatch here)
 # workflow_dispatch -->>> requires user to manually trigger the workflow
+# https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 on: workflow_dispatch
 
 # the work or tasks to be done/executed
