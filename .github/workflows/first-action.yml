@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        # script or command
+        # script or command -->> for actions, **uses** is the keyword
         run: echo 'Hello World'
       - name: Print goodbye
         # running multu line command in one step
