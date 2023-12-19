@@ -5,9 +5,10 @@ name: First Workflow
 # workflow_dispatch -->>> requires user to manually trigger the workflow
 # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 
-on: workflow_dispatch
-# : schedule
-#     - cron:  '30 5,17 * * *'
+on:
+  workflow_dispatch:
+#  schedule:
+#    - cron:  '30 5,17 * * *'
 
 # the work or tasks to be done/executed
 # takes many Job
